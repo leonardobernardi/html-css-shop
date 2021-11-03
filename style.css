@@ -28,21 +28,21 @@
     top: 0%;
     right: 0%;
 }
-#heart{
+.heart{
     position: absolute;
     bottom: 5%;
     left: 50%;
     color: red;
     display: none;
 }
-.row1:hover #heart{
+.row1:hover .heart{
     display: inline-block;
     cursor: pointer;
 }
 .row2{
     text-align: center;
 }
-.row2:hover #heart{
+.row2:hover .heart{
     display: inline-block;
     cursor: pointer;
 }
