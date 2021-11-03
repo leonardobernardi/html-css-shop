@@ -1,0 +1,48 @@
+.row1{
+    text-align: center;
+    margin-bottom: 2%;
+}
+.ipad{
+    display: inline-block;
+    position: relative;
+}
+.iphone{    
+    display: inline-block;
+    position: relative;
+}
+.beats{
+    display: inline-block;
+    position: relative;
+}
+.green{
+    background-color: green;
+    font-weight: bold;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.red{
+    background-color: red;
+    font-weight: bold;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+#heart{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    color: red;
+    display: none;
+}
+.row1:hover #heart{
+    display: inline-block;
+    cursor: pointer;
+}
+.row2{
+    text-align: center;
+}
+.row2:hover #heart{
+    display: inline-block;
+    cursor: pointer;
+}
